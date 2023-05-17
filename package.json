@@ -1,6 +1,5 @@
 {
-  "author": "Ben Newman <bn@cs.stanford.edu>",
-  "name": "recast",
+  "name": "@petergok/tempo-recast",
   "version": "0.23.2",
   "description": "JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator",
   "keywords": [
@@ -13,11 +12,6 @@
     "parsing",
     "pretty-printing"
   ],
-  "homepage": "http://github.com/benjamn/recast",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/benjamn/recast.git"
-  },
   "license": "MIT",
   "main": "main.js",
   "types": "main.d.ts",
@@ -69,5 +63,10 @@
   },
   "engines": {
     "node": ">= 4"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   }
 }
